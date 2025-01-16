@@ -244,9 +244,10 @@ border-radius: 8px;
 /* Sidebar */
 
 .sidebar {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  min-width: 350px;
+  gap: 1.5rem;
 }
 
 /* Footer */
@@ -275,6 +276,9 @@ border-radius: 8px;
   }
 
   .main {
-    padding-right: 2rem;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 }
