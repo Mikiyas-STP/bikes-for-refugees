@@ -272,10 +272,16 @@ border-radius: 8px;
 }
 
 /* Footer */
-
 .footer {
-  margin-top: 2rem;
+  background-color: var(--grey-light);
+  padding: 2rem;
+  text-align: center;
 }
+.footer__content p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
 
 .footer__content {
   border-top: 2px solid var(--orange-light);
